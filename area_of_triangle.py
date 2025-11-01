@@ -1,0 +1,11 @@
+"""
+When all the sides of a triangle is known - a, b, c
+semi perimeter (s) = (a + b + c) / 2
+area = square root of (s *(s-a)*(s-b)*(s-c))
+"""
+a= float(input("Enter the first side of triangle: "))
+b= float(input("Enter the second side of triangle: "))
+c= float(input("Enter the third side of triangle: "))
+s = (a+b+c)/2
+area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
+print ("The area of the triangle is", round(area,2))
